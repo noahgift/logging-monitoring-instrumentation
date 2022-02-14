@@ -1,0 +1,5 @@
+black
+python-json-logger
+pylint
+pytest
+pytest-cov
