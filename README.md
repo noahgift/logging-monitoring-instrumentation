@@ -12,7 +12,7 @@ A brief repository on logging monitoring and instrumentation in Python
 * Convert Daemon to click command-line tool and let `--level` be set via a flag.
 * Run Daemon to background with `python daemon.py &` # what happens?
 * Run Daemon to background with `python daemon.py &` the type `fg` # what happens?  Can you kill it?
-* Run Daemon in `screen` and detach and reattach.
+* Run Daemon in `screen` and [detach and reattach](https://askubuntu.com/questions/302662/reattaching-to-an-existing-screen-session).
 
 ## Dashboard Next Steps
 
