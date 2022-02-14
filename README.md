@@ -4,7 +4,7 @@ A brief repository on logging monitoring and instrumentation in Python
 ## Items for you to solve
 
 * Toggle log levels from debug to info to etc using config file
-* Add a file handler and [emit logs to a file](https://docs.python.org/3/howto/logging.html) 
+* Add a file handler and [emit logs to a file](https://docs.python.org/3/howto/logging.html).  Use `tail -f` to view it.  What does `tail -f` do? 
 * Use the `python-json-logger` and convert log message to a JSON format:  https://github.com/madzak/python-json-logger
 
 ## Next Steps
@@ -19,7 +19,7 @@ A brief repository on logging monitoring and instrumentation in Python
 * Send the output of the daemon to AWS:  Cloudwatch, SNS, Kinesis, etc
 * Dashboard your daemon output by counting the occurrences
 * Log via an AWS Compute Unit:  AWS Lambda, ECS or App Runner
-* Use someform of tracing and trace code:  X-Ray/`strace` etc
+* Use someform of tracing and trace code:  X-Ray/`strace` etc.  What does `strace` do?
 
 
 
