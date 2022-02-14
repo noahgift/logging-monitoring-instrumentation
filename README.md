@@ -18,6 +18,7 @@ A brief repository on logging monitoring and instrumentation in Python
 
 * Send the output of the daemon to AWS:  Cloudwatch, SNS, Kinesis, etc
 * Dashboard your daemon output by counting the occurrences
+* Log via an AWS Compute Unit:  AWS Lambda, ECS or App Runner
 
 
 
