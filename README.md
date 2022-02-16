@@ -1,3 +1,5 @@
+[![AWS Amazon Linux 2 3.7.9](https://github.com/noahgift/logging-monitoring-instrumentation/actions/workflows/main.yml/badge.svg)](https://github.com/noahgift/logging-monitoring-instrumentation/actions/workflows/main.yml)
+
 # logging-monitoring-instrumentation
 A brief repository on logging monitoring and instrumentation in Python
 
