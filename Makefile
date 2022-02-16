@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_daemon.py
+	python -m pytest -vv --cov=lib test_fruity.py
 
 format:
 	black *.py

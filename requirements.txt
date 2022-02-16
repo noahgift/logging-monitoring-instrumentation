@@ -3,3 +3,4 @@ python-json-logger
 pylint
 pytest
 pytest-cov
+python-daemon

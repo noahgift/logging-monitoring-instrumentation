@@ -3,7 +3,7 @@ A brief repository on logging monitoring and instrumentation in Python
 
 ## Items for you to solve
 
-* Toggle log levels from debug to info to etc using config file
+* Toggle log levels from debug to info to etc using config file (try also creating and catching exceptions)
 * Add a file handler and [emit logs to a file](https://docs.python.org/3/howto/logging.html) 
 * Use the `python-json-logger` and convert log message to a JSON format:  https://github.com/madzak/python-json-logger
 
