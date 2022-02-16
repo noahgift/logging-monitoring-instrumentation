@@ -13,13 +13,15 @@ A brief repository on logging monitoring and instrumentation in Python
 * Run Daemon to background with `python daemon.py &` # what happens?
 * Run Daemon to background with `python daemon.py &` the type `fg` # what happens?  Can you kill it?
 * Run Daemon in `screen` and [detach and reattach](https://askubuntu.com/questions/302662/reattaching-to-an-existing-screen-session).
-* Can you use a Daemon library?  Is this better?
+* Can you use a [Daemon library](https://pagure.io/python-daemon/)?  Is this better?
 
 ## Dashboard Next Steps
 
 * Send the output of the daemon to AWS:  Cloudwatch, SNS, Kinesis, etc
+  * [logging to AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/python-logging.html)   
 * Dashboard your daemon output by counting the occurrences
 * Log via an AWS Compute Unit:  AWS Lambda, ECS or App Runner
+  *  [Try co-pilot](https://aws.github.io/copilot-cli/)
 * Use someform of tracing and trace code:  X-Ray/`strace` etc.  What does `strace` do?
 
 
