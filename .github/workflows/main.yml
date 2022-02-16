@@ -1,0 +1,39 @@
+name: AWS Amazon Linux 2 3.7.9
+on: [push]
+jobs:
+  build:
+    runs-on: amazonlinux
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7.10
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Lint
+      run: |
+        make lint
+    - name: Test
+      run: |
+        make test
+    - name: Format
+      run: |
+        make format
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
