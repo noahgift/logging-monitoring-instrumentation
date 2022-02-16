@@ -1,10 +1,11 @@
 from random import choices
 from time import sleep
 
-#LOGGING
+# LOGGING
 import logging.config
-logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('simpleExample')
+
+logging.config.fileConfig("logging.conf")
+logger = logging.getLogger("simpleExample")
 
 
 FRUIT = ["apple", "cherry", "strawberry"]
@@ -16,4 +17,3 @@ while True:
     logging.debug(f"This is DEBUG fruit: {choices(FRUIT)}")
     print(f"Sleeping for {TIME}")
     sleep(TIME)
-    
