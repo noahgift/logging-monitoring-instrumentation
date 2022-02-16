@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C daemon.py
+	pylint --disable=R,C,E1120 loopy.py dcli.py
 
 all: install lint test
