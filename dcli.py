@@ -24,7 +24,7 @@ def run(time, level):
     LOGGER.setLevel(level)
     while True:
         LOGGER.debug("Debug level")
-        LOGGER.info(fruity())
+        LOGGER.info(fruity(interval=time))
 
 
 if __name__ == '__main__':
